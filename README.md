@@ -1,6 +1,8 @@
 # DataMiningProject
 Project for data mining subject
 
+## Choosen tool and system
+
 [Turi Create](https://github.com/apple/turicreate) simplifies the development of custom machine learning models. You don’t have to be a machine learning expert to add recommendations, object detection, image classification, image similarity or activity classification to your app.
 
 * Easy-to-use: Focus on tasks instead of algorithms
@@ -9,7 +11,7 @@ Project for data mining subject
 * Fast and Scalable: Work with large datasets on a single machine
 * Ready To Deploy: Export models to Core ML for use in iOS, macOS, watchOS, and tvOS apps
 
-Based on: https://apple.github.io/turicreate/docs/userguide/recommender/.
+**Recommendation System** based on: https://apple.github.io/turicreate/docs/userguide/recommender/.
 
 ## Installation
 
