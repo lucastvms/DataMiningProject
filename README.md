@@ -102,7 +102,9 @@ Save the model for production deployment.
 Now we will use python famous micro web framework “Flask” for prediction in the production environment.
 
       #We create api endpoint as "http://<hostname>:5000/recomend/<user_id> which will return a json and  include product_id, its ranking and the user_id.
+      
       from flask import Flask,jsonify,request
+      
       import turicreate as tc app = Flask(__name__) 
       
       model = tc.load_model("popular_deals")  
@@ -116,7 +118,7 @@ Now we will use python famous micro web framework “Flask” for prediction in 
       if __name__ == '__main__':
          app.run(debug=True,host='0.0.0.0')
 
-**Docker for deployment. (read carefully)**
+Docker for deployment.
 
       #Make sure the save model folder "popular_deals", the above script "app.py" and "requirements.txt" should exist in same directory.
       
