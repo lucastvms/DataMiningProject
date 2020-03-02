@@ -116,7 +116,7 @@ Now we will use python famous micro web framework “Flask” for prediction in 
       if __name__ == '__main__':
          app.run(debug=True,host='0.0.0.0')
 
-Docker for deployment.
+**Docker for deployment. (read carefully)**
 
       #Make sure the save model folder "popular_deals", the above script "app.py" and "requirements.txt" should exist in same directory.
       
@@ -132,7 +132,7 @@ Execute the commands for docker build and deployment :
 
       " sudo docker build -t recomend:latest . " inside the folder 
       
-and then deploy using the command
+and then deploy using the command :
       
       " sudo docker run -d -p 5000:5000 recomend ".
       
