@@ -38,6 +38,8 @@ Project for data mining subject
 * x86_64 architecture
 * At least 4 GB of RAM
 
+## Let's Get Started
+
 We will first train the model locally to make validation based on training data.
 
       # SFrame is a data-structures built for out-of-core data analysis and supports turicreate by default.
