@@ -13,7 +13,12 @@ Based on: https://apple.github.io/turicreate/docs/userguide/recommender/.
 
 ## Installation
 
-Below are the linux dependencies needed, turicreate uses python2, there is no announcement for python3 support till now. apt-get update -y &&  apt-get install -y python-pip python-dev libatlas-base-dev# For python we need turicreate library to be installed locally pip install turicreate
+      Below are the linux dependencies needed, turicreate uses python2, there is no announcement for python3 support till now.
+      
+      apt-get update -y &&  apt-get install -y python-pip python-dev libatlas-base-dev
+      
+      # For python we need turicreate library to be installed locally
+      pip install turicreate
 
 ## Supported Platforms
 
