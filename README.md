@@ -3,29 +3,29 @@ Project for data mining subject
 
 [Turi Create](https://github.com/apple/turicreate) simplifies the development of custom machine learning models. You don’t have to be a machine learning expert to add recommendations, object detection, image classification, image similarity or activity classification to your app.
 
-    Easy-to-use: Focus on tasks instead of algorithms
-    Visual: Built-in, streaming visualizations to explore your data
-    Flexible: Supports text, images, audio, video and sensor data
-    Fast and Scalable: Work with large datasets on a single machine
-    Ready To Deploy: Export models to Core ML for use in iOS, macOS, watchOS, and tvOS apps
+* Easy-to-use: Focus on tasks instead of algorithms
+* Visual: Built-in, streaming visualizations to explore your data
+* Flexible: Supports text, images, audio, video and sensor data
+* Fast and Scalable: Work with large datasets on a single machine
+* Ready To Deploy: Export models to Core ML for use in iOS, macOS, watchOS, and tvOS apps
 
 Based on: https://apple.github.io/turicreate/docs/userguide/recommender/
 
-Installation
+## Installation
 
-# Below are the linux dependencies needed, turicreate uses python2, there is no announcement for python3 support till now. apt-get update -y &&  apt-get install -y python-pip python-dev libatlas-base-dev# For python we need turicreate library to be installed locally pip install turicreate
+Below are the linux dependencies needed, turicreate uses python2, there is no announcement for python3 support till now. apt-get update -y &&  apt-get install -y python-pip python-dev libatlas-base-dev# For python we need turicreate library to be installed locally pip install turicreate
 
-# Supported Platforms
+## Supported Platforms
 
-## Turi Create supports:
+### Turi Create supports:
 
     * macOS 10.12+
     * Linux (with glibc 2.12+)
     * Windows 10 (via WSL)
 
-# System Requirements
+## System Requirements
 
-## Turi Create requires:
+### Turi Create requires:
 
     * Python 2.7, 3.5, 3.6
     * x86_64 architecture
