@@ -125,7 +125,7 @@ Execute the commands for docker build and deployment :
 
       " sudo docker build -t recomend:latest . " inside the folder 
       
-      and then deploy using the command
+and then deploy using the command
       
       " sudo docker run -d -p 5000:5000 recomend ".
       
