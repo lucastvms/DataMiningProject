@@ -101,7 +101,7 @@ Save the model for production deployment.
 
 Now we will use python famous micro web framework “Flask” for prediction in the production environment.
 
-      #We create api endpoint as "http://<hostname>:5000/recomend/<user_id> which will return a json and  include product_id, its ranking and the user_id.
+      # We create api endpoint as "http://<hostname>:5000/recomend/<user_id> which will return a json and  include product_id, its ranking and the user_id.
       
       from flask import Flask,jsonify,request
       
@@ -120,7 +120,7 @@ Now we will use python famous micro web framework “Flask” for prediction in 
 
 Docker for deployment.
 
-      #Make sure the save model folder "popular_deals", the above script "app.py" and "requirements.txt" should exist in same directory.
+      # Make sure the save model folder "popular_deals", the above script "app.py" and "requirements.txt" should exist in same directory.
       
       FROM ubuntu:16.04 RUN apt-get update -y && \    apt-get install -y python-pip python-dev
       
